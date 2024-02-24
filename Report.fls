@@ -2,8 +2,8 @@ PWD c:\CodingWorkspace\LaTex
 INPUT C:\Users\kgrzy\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT c:\CodingWorkspace\LaTex\Report.tex
 OUTPUT Report.log
-INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -123,9 +123,9 @@ INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tf
 INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\kgrzy\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\kgrzy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\kgrzy\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT Report.aux
 INPUT .\Report.out
 INPUT .\Report.out
