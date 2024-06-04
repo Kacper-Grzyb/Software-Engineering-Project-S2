@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.31)  4 JUN 2024 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.31)  4 JUN 2024 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -484,12 +484,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 [1
 
 {/usr/local/texlive/2024basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.50 \end{titlepage}
-                     [1] (./Report.toc)
+(./Report.toc)
 \tf@toc=\write4
 \openout4 = `Report.toc'.
 
@@ -498,36 +493,60 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.65 
-      [1
+l.53 \clearpage
+                [1
 
-] [2] [3] [4] [5] (./Report.aux)
+] [2
+
+] [3
+
+] [4] [5] [6
+
+] [7] (./Report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: C491209772A8F8EB3BD3CB25F78D5BA0;323.
+
+
+Package rerunfilecheck Warning: File `Report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Report.out':
+(rerunfilecheck)             Before: C491209772A8F8EB3BD3CB25F78D5BA0;323
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11718 strings out of 475567
- 185834 string characters out of 5777889
- 1933187 words of memory out of 5000000
- 33698 multiletter control sequences out of 15000+600000
- 565606 words of font info for 62 fonts, out of 8000000 for 9000
+ 11706 strings out of 475567
+ 185594 string characters out of 5777889
+ 1934187 words of memory out of 5000000
+ 33684 multiletter control sequences out of 15000+600000
+ 564241 words of font info for 57 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 79i,6n,93p,1607b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/sebi/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknappen/ec
-/tcrm1200.600pk></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb>
-Output written on Report.pdf (7 pages, 92330 bytes).
+ 79i,5n,93p,1607b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{section.0.3} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.2} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.1} has been referenced but does not exist
+, replaced by a fixed one
+
+ </Users/sebi/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknappen/ec/t
+crm1200.600pk></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb>
+Output written on Report.pdf (8 pages, 79232 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
+ 66 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
  25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
