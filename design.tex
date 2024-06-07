@@ -95,10 +95,10 @@ Using Figma, we developed interactive prototypes for both the web and mobile app
 \end{itemize}
 
 \subsubsection{Detailed Design}
-After finalizing the prototypes, we created UML diagrams, data models, and acceptance criteria. We also developed CRC cards, class diagrams, use case diagrams, sequence diagrams, state machine diagrams, RAID diagrams, and performed MoSCoW and SWOT analyses to ensure a robust and comprehensive design.
+After finalizing the prototypes, we created UML diagrams, data models, and acceptance criteria. We also developed CRC cards, carried out Verb Noun Analysis, a RAID log, and performed MoSCoW and SWOT analyses to ensure a robust and comprehensive design.
 
 \begin{itemize}
-  \item \textbf{UML Diagrams:} We used UML diagrams to visualize the structure and behavior of the system, including class diagrams, sequence diagrams, and state machine diagrams.
+  \item \textbf{UML Diagrams:} We used UML diagrams to visualize the structure and behavior of the system, including class, component, context, data model, use case, sequence, and state machine diagrams.
   
   \item \textbf{Data Models:} Data models were designed to represent the entities and relationships within the application, ensuring efficient data storage and retrieval.
   
@@ -107,18 +107,25 @@ After finalizing the prototypes, we created UML diagrams, data models, and accep
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/crc.png}
-    \caption{CRC Diagram}
-    \label{fig:example_icrcmage}
+    \includegraphics[width=0.8\textwidth]{images/class_diagram.png}
+    \caption{Class Diagram}
+    \label{fig:example_iclassimage}
   \end{figure}
 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/uml.png}
-    \caption{Database Structure}
-    \label{fig:uml}
-  \end{figure}
+    \includegraphics[width=0.8\textwidth]{images/old_component_diagram.png}
+    \caption{Our initial, wrong implementation of the UML Component Diagram}
+    \label{fig:componentwrong}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/component_diagram.png}
+  \caption{Our second, improved implementation of the UML Component Diagram}
+  \label{fig:componentright}
+\end{figure}
 
 \begin{figure}[H]
     \centering
@@ -130,24 +137,18 @@ After finalizing the prototypes, we created UML diagrams, data models, and accep
 
  \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/uml2.png}
-    \caption{ User Data }
+    \includegraphics[width=0.8\textwidth]{images/data_model.png}
+    \caption{ Data Model }
     \label{fig:uml2}
-  \end{figure}
-
-   \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/usercase.png}
-    \caption{ UML Diagram }
-    \label{fig:usercase}
   \end{figure}
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/component.png}
-    \caption{ User Cases for Coach }
-    \label{fig:component}
+    \includegraphics[width=0.8\textwidth]{images/usercase.png}
+    \caption{ Coach Use Case Diagram along with a written out Use Case for a central requirement }
+    \label{fig:usercase}
   \end{figure}
+
 
 
 
