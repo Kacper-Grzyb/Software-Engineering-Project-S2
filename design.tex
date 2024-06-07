@@ -33,25 +33,56 @@ We planned LinkedGym's architecture to support scalability, flexibility, and a s
   \item \textbf{Security:} Employing Firebase Authentication to provide secure and seamless user login and registration processes, safeguarding user data and privacy.
 \end{itemize}
 
-\subsection{Sketches, Storyboard, Wireframes/Prototype}
+\subsection{Prepared documentation, Wireframes and the Figma Prototype}
 Our design process involved creating detailed sketches, storyboards, wireframes, and prototypes to visualize and iterate on the user experience. Key design elements included:
 
-\subsubsection{User Personas and Stories}
-Detailed personas and user stories helped us understand our target audience and their specific needs, guiding our design decisions.
+\subsubsection{Product vision definition at the very beginning}
+
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/personas.png}
-    \caption{Personas}
-    \label{fig:example_image}
-  \end{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/vision_note.jpg}
+  \caption{Initial Product Vision Note}
+  \label{fig:visionNote}
+\end{figure}
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/risks_goals_note.jpg}
+  \caption{Initial Risk and Goal Analysis Note}
+  \label{fig:riskGoalNote}
+\end{figure}
 
-\begin{itemize}
-  \item \textbf{User Personas:} We created personas representing different types of users, including fitness coaches and trainees, to empathize with their goals, behaviors, and pain points.
-  
-  \item \textbf{User Stories:} We developed user stories to capture the requirements and expectations of each persona, ensuring that our design addressed real user needs.
-\end{itemize}
+\subsubsection{Results of Crazy 8's and Solution Sketches}
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/crazy_8s.jpg}
+  \caption{Process of choosing the best sketches from the Crazy 8s}
+  \label{fig:crazy8}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/solution_sketch.jpg}
+  \caption{Finalized Solution Sketch}
+  \label{fig:solutionSketch}
+\end{figure}
+
+\subsubsection{Storyboarding}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/storyboard1.jpg}
+  \caption{Trainee's Storyboard}
+  \label{fig:storyboardTrainee}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/storyboard2.jpg}
+  \caption{Coach's Storyboard}
+  \label{fig:storyboarCoach}
+\end{figure}
 
 \subsubsection{User Journey Maps}
 Mapping the user journey allowed us to identify key interaction points and areas for improvement.
@@ -94,60 +125,97 @@ Using Figma, we developed interactive prototypes for both the web and mobile app
   \item \textbf{Prototypes:} Interactive prototypes were developed to simulate user interactions and gather feedback on features such as navigation, content placement, and user flow.
 \end{itemize}
 
-\subsubsection{Detailed Design}
-After finalizing the prototypes, we created UML diagrams, data models, and acceptance criteria. We also developed CRC cards, class diagrams, use case diagrams, sequence diagrams, state machine diagrams, RAID diagrams, and performed MoSCoW and SWOT analyses to ensure a robust and comprehensive design.
+\subsubsection{User Personas and Stories}
+Detailed personas and user stories helped us understand our target audience and their specific needs, guiding our design decisions.
 
 \begin{itemize}
-  \item \textbf{UML Diagrams:} We used UML diagrams to visualize the structure and behavior of the system, including class diagrams, sequence diagrams, and state machine diagrams.
+  \item \textbf{User Personas:} We created personas representing different types of users, including fitness coaches and trainees, to empathize with their goals, behaviors, and pain points.
+  
+  \item \textbf{User Stories:} We developed user stories to capture the requirements and expectations of each persona, ensuring that our design addressed real user needs.
+\end{itemize}
+
+\subsubsection{Detailed Design}
+After finalizing the prototypes, we created UML diagrams, data models, and acceptance criteria. We also created CRC cards, Verb Noun Analysis, a RAID log, and performed MoSCoW prioritization to ensure a robust and comprehensive design.
+
+\begin{itemize}
+  \item \textbf{UML Diagrams:} We used UML diagrams to visualize the structure and behavior of the system, including class, component, context, data model, use case, sequence, and state machine diagrams.
   
   \item \textbf{Data Models:} Data models were designed to represent the entities and relationships within the application, ensuring efficient data storage and retrieval.
   
   \item \textbf{Acceptance Criteria:} Clear acceptance criteria were defined to validate the functionality of the system and ensure that it met the requirements of stakeholders.
 \end{itemize}
 
+\includepdf[pages=-]{Resources/LinkedGym_verb_noun_analysis.pdf}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/crc_cards.jpg}
+  \caption{CRC Cards}
+  \label{fig:crcCards}
+\end{figure}
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/crc.png}
+    \includegraphics[width=0.8\textwidth]{images/class_diagram.png}
     \caption{Class Diagram}
-    \label{fig:example_icrcmage}
-  \end{figure}
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/uml.png}
-    \caption{Database Structure}
-    \label{fig:uml}
-  \end{figure}
+    \label{fig:classDiagram}
+\end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/state_machine.png}
-    
+    \includegraphics[width=0.8\textwidth]{images/old_component_diagram.png}
+    \caption{Our initial, wrong implementation of the UML Component Diagram}
+    \label{fig:componentWrong}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/component_diagram.png}
+  \caption{Our second, improved implementation of the UML Component Diagram}
+  \label{fig:componentDiagram}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/context_diagram1.png}
+  \caption{Context Diagram 1}
+  \label{fig:contextDiagram1}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/context_diagram2.png}
+  \caption{Context Diagram 2}
+  \label{fig:contextDiagram2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/state_machine.png}    
     \caption{State Machine}
     \label{fig:state_machine}
-  \end{figure}
+\end{figure}
 
- \begin{figure}[H]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/uml2.png}
-    \caption{ User Data }
-    \label{fig:uml2}
-  \end{figure}
+    \includegraphics[width=0.8\textwidth]{images/se_data_model.png}
+    \caption{Data Model}
+    \label{fig:dataModel}
+\end{figure}
 
-   \begin{figure}[H]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/usercase.png}
-    \caption{ UML Diagram }
-    \label{fig:usercase}
-  \end{figure}
+    \includegraphics[width=0.8\textwidth]{images/use_cases.png}
+    \caption{ Coach Use Case Diagram along with a written out Use Case for a central requirement }
+    \label{fig:useCase}
+\end{figure}
 
-  \begin{figure}[H]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/component.png}
-    \caption{ User Cases for Coach }
-    \label{fig:component}
-  \end{figure}
+    \includegraphics[width=0.8\textwidth]{images/coach_sequence_diagram.jpg}
+    \caption{ Drawn UML Sequence Diagram for the Coach use case }
+    \label{fig:sequence}
+\end{figure}
 
 
 
