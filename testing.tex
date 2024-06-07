@@ -1,0 +1,51 @@
+\section{Test Plan}
+
+\subsection{Project requirements and objectives}
+This document outlines the testing strategy for the entire system of the fitness coach freelancing platform LinkedGym, aimed at validating its functionality and ensuring it meets the specified requirements.
+This test will cover all the functionality of the app including the graphical user interface, sign in/up functionality, stripe integration, social media integration, chat functionality, workout creation, logging exercises, nutrition and sleep, applying for coaching, explore page functionality, calendar integration and video calls.
+
+\subsection{Test objectives and scope}
+The purpose of the subsequently exposed test is to ultimately deliver a working and enjoyable-to-use product. Well defined test will improve the platform by catching edge cases which could cause instabilities and crashes, allows to find bugs in the early stages of development, finding root causes of issues by testing on a component-by-component basis and delivering a more polished UI and UX. The consensus is to try test every component. In the mobile applications, logic and user interface will be tested with language-specific unit testing frameworks. On the website we can assert the same strategy. Performance will get asserted by stress testing various parts of the platform with automated requests. The models will not be tested as there's not much to test for a class which holds only state and no behavior.
+
+\subsection{Test Levels and Types}
+\textbf{Levels:}\\
+\begin{itemize}
+    \item Unit Testing: Test individual components for correct behavior.
+    \item Integration Testing: Test to see if the integration between internal and external services are up to expectation/standard, for example Stripe for payments.
+    \item System Testing: Validate the complete and integrated application both from the browser side and the.
+    \item Acceptance Testing: Conducted with real users to ensure it meets business needs.
+\end{itemize}
+
+\textbf{Types:}\\
+\begin{itemize}
+    \item Functional Testing: Validate features (Like the workout planner, chat...) and functions (For example the coach writing to To-Do list for the trainee).
+    \item Usability Testing: Ensure the application is intuitive and easy to use.
+    \item Performance Testing: Verify the system performs well and is still acceptable under expected and stressed conditions.
+    \item Security Testing: Ensure data protection and compliance with security standards.
+\end{itemize}
+
+\subsection{Test environment and tools}
+The purpose of this test plan is to outline the environment set-up and tools required to ensure the quality and reliability of the coaching platform. Our objectives are establishing comprehensive test environment that mirrors production conditions and verifying the functionality, performance, and security of the coaching platform.\\
+
+\textbf{Test environment:}\\
+For environment setup, we'll ensure a comprehensive replication of production conditions. This involves dedicated testing servers, varied client devices, multiple operating systems, browsers, databases, and a cloud-based infrastructure with CI/CD integration. Additionally, network parameters will mimic real-world conditions, including varying bandwidth, latency, and VPN for security testing.\\
+
+\textbf{Tools:}\\
+In terms of testing tools, we'll utilize a range of solutions connected with the different testing phases. For functional testing, Selenium WebDriver and Appium for Android and IOS application testing will be executed. Performance testing will rely on Apache JMeter, while security testing will utilize OWASP ZAP. Compatibility will be ensured through BrowserStack, Sauce Labs, and device emulators/simulators. Monitoring and logging will be managed via ELK Stack, Prometheus, and Grafana, while collaboration and reporting will be facilitated by Jira and Trello. This structured approach aims to optimize testing efficiency and accuracy.
+
+\subsection{Test Deliverables}
+\begin{itemize}
+    \item Test Pland Document
+    \item Entry criteria: Requirements for the MMP are finalized, unit testing programs are finished, the test environment is set up and test cases are ready, the team has set aside a schedule to overlook the test.
+    \item Exit criteria: All test cases have been executed; all the critical errors have been resolved; all the test deliverables have been completed.
+\end{itemize}
+
+\subsection{Test maintenance and continuous improvement}
+\textbf{Maintenance:} Update and review test cases and environments every month during development to reflect changes in technology and project scope and align them with the changes in the codebase.\\
+\textbf{Continuous Improvement:} Gather feedback from each test cycle to refine processes and enhance code integrity. Implement lessons learned into future test cycles to enhance effectiveness. \\
+
+
+
+
+
+
